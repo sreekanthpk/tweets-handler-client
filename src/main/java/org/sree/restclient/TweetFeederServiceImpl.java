@@ -15,8 +15,8 @@ public class TweetFeederServiceImpl implements TweetFeederService {
     private String oAuthConsumerKey = "L4sa1OEhKm6izDPcaGTWV9t6G";
     private String oAuthConsumerSecret = "gcrIqObJgSTesHTrTW44vnLIBrbkGv4Ft8pu4iA5JsFJxrK73J"; 
 
-    private String oAuthAccessToken = "58159267-VKx3ljFMi8V60lvIsWk3NXQ8GtMhmxqjVT4jaEpl0";
-    private String oAuthAccessTokenSecret = "eMB2RfVd6jWlzQnz1xZ3tn4o36LHKpnFdCR1WumkSjrlS"; 
+    private String oAuthAccessToken = "58159267-mCM2Cre4rnq5j5yCJFpBS4Zsc9CbWWMPey36Tdxp2";
+    private String oAuthAccessTokenSecret = "qw6kESpkqIQvyGKyW1XW3irin2Y1tzuiRY139DQ5Sg3Wf"; 
     
     private Twitter twitter;
     

@@ -40,7 +40,7 @@ public class Application {
 			result.add(executorService.submit(new Callable<Boolean>(){
 				@Override
 				public Boolean call() throws Exception {
-					ResponseEntity<Boolean> exchange = restTemplate.exchange("http://localhost:8080/feed/store/"+userId, HttpMethod.POST, new HttpEntity<List>(tweetFeederService.getTweetFrom(userId)),boolean.class);
+					ResponseEntity<Boolean> exchange = restTemplate.exchange("http://localhost:9000/feed/store/"+userId, HttpMethod.POST, new HttpEntity<List>(tweetFeederService.getTweetFrom(userId)),boolean.class);
 					countDownLatch.countDown();
 					return exchange.getBody();					
 				}
